@@ -1,0 +1,39 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Tetris</title>
+  </head>
+
+  <body>
+    <div id="gray-layer"></div>
+    <div id="action-helper">
+      <h4 id="action-helper-text"></h4>
+    </div>
+    <div id="game-info-container">
+      <span class="block-title">Result:</span>
+      <div id="game-fields">
+        <div class="game-field">
+          <span>Level: </span>
+          <span id="level-value">1</span>
+        </div>
+        <div class="game-field">
+          <span>Lines:</span>
+          <span id="lines-value">0</span>
+        </div>
+        <div class="game-field">
+          <span>Time:</span>
+          <span id="time-value">0</span>
+        </div>
+      </div>
+    </div>
+    <div id="next-tetromino-block">
+      <span class="block-title">Next: </span>
+    </div>
+    <div id="game-over">
+      <h2>Game over!</h2>
+      <h3>Press R to restart</h3>
+    </div>
+    <div id="scene-container"></div>
+    <script src="src/index.js"></script>
+  </body>
+</html>
